@@ -1,0 +1,122 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #0f090900;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(13, 16, 202, 0.2);
+}
+
+#ramen-detail {
+    margin-bottom: 20px;
+}
+
+#ramen-detail img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#ramen-detail img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(9, 224, 45, 0.2);
+}
+
+h1 {
+    background-color: #ba1ac9;
+    color: #1926e7;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2, h3, h4 {
+    color: #00e1ff;
+}
+
+h4 {
+    background-color: #c91a45;
+    color: #21d188;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#new-ramen-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c320d8;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#new-ramen-form input,
+
+#new-ramen-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #083547;
+    border: 1px solid #faeb1e;
+    border-radius: 5px;
+}
+
+#new-ramen-form input[type="text"],
+
+#new-ramen-form input[type="number"] {
+    border: 1px solid #169bc7;
+    outline-color: #22d667;
+}
+
+#new-ramen-form button {
+    background-color: #df1717;
+    color: #1154d1;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-ramen-form button:hover {
+    background-color: #c52bca;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.details-image {
+    max-width: 100%;
+    height: auto;
+}
