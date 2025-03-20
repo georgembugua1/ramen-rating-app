@@ -9,3 +9,4 @@ core i5
 Android 10 and above
 IOS 7
 RAM more than 4GB
+ 
